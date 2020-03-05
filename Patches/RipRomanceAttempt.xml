@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- so much thought defs! -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "Affair"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "Affair"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "Affair"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "Incestuous"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "Incestuous"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "Incestuous"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "Disfigured"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "Disfigured"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "Disfigured"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<!--<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "Pretty"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "Pretty"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "Pretty"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>-->
+
+	<!--<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "Ugly"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "Ugly"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "Ugly"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>-->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "OpinionOfMyLover"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "OpinionOfMyLover"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "OpinionOfMyLover"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "WantToSleepWithSpouseOrLover"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "WantToSleepWithSpouseOrLover"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "WantToSleepWithSpouseOrLover"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "SoldMyLovedOne"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "SoldMyLovedOne"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "SoldMyLovedOne"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "RebuffedMyRomanceAttempt"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "RebuffedMyRomanceAttempt"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "RebuffedMyRomanceAttempt"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "RebuffedMyRomanceAttemptMood"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "RebuffedMyRomanceAttemptMood"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "RebuffedMyRomanceAttemptMood"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "FailedRomanceAttemptOnMe"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "FailedRomanceAttemptOnMe"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "FailedRomanceAttemptOnMe"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "FailedRomanceAttemptOnMeLowOpinionMood"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "FailedRomanceAttemptOnMeLowOpinionMood"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "FailedRomanceAttemptOnMeLowOpinionMood"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "BrokeUpWithMe"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "BrokeUpWithMe"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "BrokeUpWithMe"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "BrokeUpWithMeMood"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "BrokeUpWithMeMood"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "BrokeUpWithMeMood"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "CheatedOnMe"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "CheatedOnMe"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "CheatedOnMe"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "CheatedOnMeMood"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "CheatedOnMeMood"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "CheatedOnMeMood"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "DivorcedMe"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "DivorcedMe"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "DivorcedMe"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "DivorcedMeMood"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "DivorcedMeMood"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "DivorcedMeMood"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "RejectedMyProposal"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "RejectedMyProposal"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "RejectedMyProposal"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "RejectedMyProposalMood"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "RejectedMyProposalMood"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "RejectedMyProposalMood"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "IRejectedTheirProposal"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "IRejectedTheirProposal"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "IRejectedTheirProposal"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "HoneymoonPhase"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "HoneymoonPhase"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "HoneymoonPhase"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "KilledMyLover"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "KilledMyLover"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "KilledMyLover"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyLoverDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyLoverDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyLoverDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "KilledMyFiance"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "KilledMyFiance"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "KilledMyFiance"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyFianceDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyFianceDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyFianceDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyFianceeDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyFianceeDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyFianceeDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "KilledMySpouse"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "KilledMySpouse"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "KilledMySpouse"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyHusbandDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyHusbandDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyHusbandDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyWifeDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyWifeDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyWifeDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "KilledMyFriend"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "KilledMyFriend"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "KilledMyFriend"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "KilledMyRival"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "KilledMyRival"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "KilledMyRival"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "PawnWithBadOpinionDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "PawnWithBadOpinionDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "PawnWithBadOpinionDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "KilledMyFather"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "KilledMyFather"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "KilledMyFather"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyFatherDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyFatherDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyFatherDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "KilledMyMother"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "KilledMyMother"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "KilledMyMother"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyMotherDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyMotherDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyMotherDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "KilledMySon"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "KilledMySon"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "KilledMySon"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MySonDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MySonDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MySonDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyNieceDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyNieceDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyNieceDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyNephewDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyNephewDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyNephewDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyHalfSiblingDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyHalfSiblingDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyHalfSiblingDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyAuntDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyAuntDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyAuntDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyUncleDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyUncleDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyUncleDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyGrandparentDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyGrandparentDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyGrandparentDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyCousinDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyCousinDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyCousinDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyKinDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyKinDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyKinDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "KilledMyDaughter"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "KilledMyDaughter"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "KilledMyDaughter"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyDaughterDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyDaughterDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyDaughterDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "KilledMyBrother"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "KilledMyBrother"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "KilledMyBrother"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyBrotherDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyBrotherDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyBrotherDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "KilledMySister"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "KilledMySister"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "KilledMySister"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MySisterDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MySisterDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MySisterDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "KilledMyKin"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "KilledMyKin"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "KilledMyKin"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "MyGrandchildDied"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "MyGrandchildDied"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "MyGrandchildDied"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThoughtDef[defName = "KilledMyBondedAnimal"]/nullifyingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThoughtDef[defName = "KilledMyBondedAnimal"]</xpath>
+				<value>
+					<nullifyingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThoughtDef[defName = "KilledMyBondedAnimal"]/nullifyingTraits</xpath>
+		<value>
+			<li>Psychopath</li>
+		</value>
+	</Operation>
+
+</Patch>
