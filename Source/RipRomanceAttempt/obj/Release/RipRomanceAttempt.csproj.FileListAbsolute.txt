@@ -1,8 +1,0 @@
-F:\Steam\steamapps\common\RimWorld\Mods\Mod To Update - Rip Romance Attempt\Assemblies\RipRomanceAttempt.dll
-F:\Steam\steamapps\common\RimWorld\Mods\Mod To Update - Rip Romance Attempt\Source\RipRomanceAttempt\obj\Release\RipRomanceAttempt.csprojAssemblyReference.cache
-F:\Steam\steamapps\common\RimWorld\Mods\Mod To Update - Rip Romance Attempt\Source\RipRomanceAttempt\obj\Release\RipRomanceAttempt.csproj.CoreCompileInputs.cache
-F:\Steam\steamapps\common\RimWorld\Mods\Mod To Update - Rip Romance Attempt\Source\RipRomanceAttempt\obj\Release\RipRomanceAttempt.dll
-E:\Steam\steamapps\common\RimWorld\Mods\LessStupidRomanceAttempt\Source\RipRomanceAttempt\obj\Release\RipRomanceAttempt.csprojAssemblyReference.cache
-E:\Steam\steamapps\common\RimWorld\Mods\LessStupidRomanceAttempt\Source\RipRomanceAttempt\obj\Release\RipRomanceAttempt.csproj.CoreCompileInputs.cache
-E:\Steam\steamapps\common\RimWorld\Mods\LessStupidRomanceAttempt\Source\RipRomanceAttempt\obj\Release\RipRomanceAttempt.dll
-E:\Steam\steamapps\common\RimWorld\Mods\LessStupidRomanceAttempt\1.1\Assemblies\RipRomanceAttempt.dll
