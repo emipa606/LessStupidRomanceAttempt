@@ -1,4 +1,4 @@
-﻿using RimWorld;
+﻿using RipRomanceAttempt.HarmonyPatches;
 using Verse;
 
 namespace RipRomanceAttempt
@@ -8,7 +8,7 @@ namespace RipRomanceAttempt
     {
         static Initialization()
         {
-            HarmonyPatches.HPatcher.Init();
+            HPatcher.Init();
         }
     }
 }
