@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Less Stupid Romance Attempt (Continued)</name>
   <packageId>Mlie.LessStupidRomanceAttempt</packageId>
@@ -21,22 +21,26 @@
   <loadAfter>
     <li>UnlimitedHugs.HugsLib</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Dazz Aephiex mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1307659290
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/LessStupidRomanceAttempt][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
-I long stopped playing rimworld myself and probably won&apos;t update any of these. Source code is included in the mod file and anyone can update and reupload without asking me for permissions. This mod will stay up for v1.0.
+I long stopped playing rimworld myself and probably won't update any of these. Source code is included in the mod file and anyone can update and reupload without asking me for permissions. This mod will stay up for v1.0.
 
 ============================================================
 
@@ -48,7 +52,7 @@ Well. Your pawns will.
 
 Features:
 - One cannot perform or targeted by romance attempt if they have +25 or greater opinion to their current lover.
-- One cannot perform romance attempt if recently rebuffed by someone, as long as &quot;rebuffed by someone&quot; mood modifier hasn&apos;t expired.
+- One cannot perform romance attempt if recently rebuffed by someone, as long as "rebuffed by someone" mood modifier hasn't expired.
 - Romance control over gays and lesbians:
   1. One is more likely to rebuff if the performer is not their ideal gender.
   2. One is twice more likely to breakup if current lover is not their ideal gender.
@@ -57,12 +61,12 @@ Features:
   1. Psychopath will no longer mind if any other people and/or animals are killed: no matter how close they were; exactly what the description says.
   2. Psychopath will no longer have their mood or opinion to other people adjusted according to their romance relationship status.
 
-Incompatibility: Psychology [i](Psychology has already reworked romance mechanic, and I don&apos;t even know if this mod is still required if you have it.)[/i]
+Incompatibility: Psychology [i](Psychology has already reworked romance mechanic, and I don't even know if this mod is still required if you have it.)[/i]
 Old Save Compatible: Yes
 Safely Removable: Yes
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -73,4 +77,3 @@ Safely Removable: Yes
 [/list]
 </description>
 </ModMetaData>
-
