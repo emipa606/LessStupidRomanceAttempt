@@ -35,7 +35,7 @@ internal static class HPatcher
         var myDesktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
         // Write the string array to a new file.
-        using var outputFile = new StreamWriter(myDesktopPath + @"\" + fileName + ".txt");
+        using var outputFile = new StreamWriter($@"{myDesktopPath}\{fileName}.txt");
         outputFile.WriteLine("================");
         outputFile.WriteLine("Body of " + fileName + " method", fileName);
         outputFile.WriteLine("================");

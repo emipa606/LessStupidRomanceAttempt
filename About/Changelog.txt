@@ -1,5 +1,8 @@
 # Changelog for LessStupidRomanceAttempt
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.3.1 - Removed legacy HugsLib requirement
 
 

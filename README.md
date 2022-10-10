@@ -5,6 +5,8 @@
 Update of Dazz Aephiex mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1307659290
 
+- Removed legacy HugsLib requirement
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
