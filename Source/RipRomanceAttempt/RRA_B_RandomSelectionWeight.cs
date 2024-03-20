@@ -5,7 +5,7 @@ using Verse;
 namespace RipRomanceAttempt;
 
 [HarmonyPatch(typeof(InteractionWorker_Breakup), "RandomSelectionWeight")]
-public static class RRA_B_RandomSelectionWeight
+public static class RRA_B_RandomSelectionWeightM
 {
     public static void Postfix(ref float __result, Pawn initiator, Pawn recipient)
     {
