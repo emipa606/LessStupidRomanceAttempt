@@ -4,8 +4,8 @@ using Verse;
 
 namespace RipRomanceAttempt;
 
-[HarmonyPatch(typeof(InteractionWorker_RomanceAttempt), "RandomSelectionWeight")]
-public static class RRA_RA_RandomSelectionWeight
+[HarmonyPatch(typeof(InteractionWorker_RomanceAttempt), nameof(InteractionWorker_RomanceAttempt.RandomSelectionWeight))]
+public static class InteractionWorker_RomanceAttempt_RandomSelectionWeight
 {
     public static void Postfix(ref float __result, Pawn initiator, Pawn recipient)
     {
