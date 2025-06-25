@@ -14,7 +14,7 @@ public static class InteractionWorker_MarriageProposal_AcceptanceChance
             return;
         }
 
-        // always reject marrage proposal if non-ideal gender
+        // always reject marriage proposal if non-ideal gender
         if (initiator.gender == recipient.gender != recipient.story.traits.HasTrait(TraitDefOf.Gay))
         {
             __result = 0f;
