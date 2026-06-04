@@ -17,7 +17,7 @@ public static class InteractionWorker_RomanceAttempt_RandomSelectionWeight
         }
 
         // one can't perform romance attempt if recently rebuffed
-        if (initiator.needs.mood.thoughts.memories.NumMemoriesOfDef(ThoughtDefOf.RebuffedMyRomanceAttempt) > 0)
+        if (initiator.needs.mood != null && initiator.needs.mood.thoughts.memories.NumMemoriesOfDef(ThoughtDefOf.RebuffedMyRomanceAttempt) > 0)
         {
             __result = 0f;
             return;
